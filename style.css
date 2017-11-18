@@ -26,14 +26,11 @@
   body {
     background-color: #4d0000;
       color: white;
-      
+font-family:"Noto Sans";
   }
     h2 {
         font-size:60px;
   }
     h1 {
     font-family:"Roboto",sans-serif;
-  }
-    p,h2 {
-   font-family:"Noto Sans"
   }
