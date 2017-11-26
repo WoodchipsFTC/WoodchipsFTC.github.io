@@ -6,19 +6,69 @@
    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
    <link href="https://fonts.googleapis.com/css?family=Noto+Sans|Roboto" rel="stylesheet">
 <link rel="shortcut icon" type="image/x-icon" href="logo.png" />
-
     </head>
-<body>
+<body onscroll = "stickyfunction">
 <h1><center>WOODCHIPS</center></h1>
 <ul>
+<div id="navbar">
   <li class="active" ><a href="index.html">about us</a></li>
   <li><a href="about our robot.html">about our robot</a></li>
   <li style="float:right"><a href="contact us.html">contact us</a></li>
 </ul>
+</div>
   <div id="content">
       <h2><center>About Us<center></h2>
-          <p>this is the about page</p>
-          <img src="logo.png" alt="Our logo">
+      <p>random text for testing purposes</p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <p>Many line breaks are used to make the page scrollable</p>
   </div>
+<script>
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function stickyfunction() {
+  if (window.pageYOffset >= sticky)
+  navbar.classList.add("sticky")
+} else {
+  navbar.classList.remove("sticky");
+  }
+}
+</script>
 </body>
 </html>

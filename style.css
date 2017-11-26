@@ -4,6 +4,7 @@
       padding: 0;
       overflow: hidden;
       background-color: #0099ff;
+      position: sticky;
   }
   li {
     float: left;
@@ -26,7 +27,7 @@
   body {
     background-color: #4d0000;
       color: white;
-      
+
   }
     h2 {
         font-size:60px;
@@ -36,4 +37,12 @@
   }
     p,h2 {
    font-family:"Noto Sans"
+   }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  .sticky + .content {
+    padding-top: 60px
   }
