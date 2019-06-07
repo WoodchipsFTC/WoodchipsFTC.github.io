@@ -54,3 +54,6 @@
   .center {
     text-align:center;
   }
+a[href^="mailto"] {
+  color: #66ccff;
+}
